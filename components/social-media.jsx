@@ -18,7 +18,7 @@ const mySocialMedia = [
 
 function SocialMedia() {
     return (
-        <div className="mt-auto flex justify-center gap-3">
+        <div className="md:col-span-2 mt-auto flex justify-center md:justify-end gap-3">
             {mySocialMedia.map(item => (
                 <Link key={item.url} href={item.url}>
                     <div className="
